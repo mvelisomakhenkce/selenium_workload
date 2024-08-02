@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/sh
 
 echo "Changing to home directory..."
 pushd "$HOME"
