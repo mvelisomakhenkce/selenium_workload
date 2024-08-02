@@ -1,7 +1,7 @@
 #!/usr/bin/sh
 
 echo "Changing to home directory..."
-pushd "$HOME"
+#pushd "$HOME"
 
 echo "Update the repository and any packages..."
 apt update
@@ -40,7 +40,7 @@ unzip chromedriver-linux64.zip
 echo "Removing archive files"
 rm chrome-linux64.zip  chromedriver-linux64.zip
 
-popd
+#popd
 
 echo "Install Selenium & dependencies..."
 python3 -m venv .env
